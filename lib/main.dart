@@ -14,13 +14,14 @@ class MyApp extends StatelessWidget {
           title: const Text("Welcome"),
         ),
         body: Column(
-          children: <Widget>[
+          children: [
             Expanded(
               flex: 1,
               child: Container(
-                // alignment: Alignment.center,
+                alignment: Alignment.center,
                 margin: const EdgeInsets.fromLTRB(10, 10, 10, 10),
                 color: const Color.fromARGB(255, 251, 135, 206),
+                child: Text("Container 1"),
               ),
             ),
 
@@ -40,6 +41,7 @@ class MyApp extends StatelessWidget {
                                 margin:
                                     const EdgeInsets.fromLTRB(10, 10, 10, 10),
                                 color: const Color.fromARGB(255, 241, 250, 118),
+                                child: Text("Container 2"),
                               ),
                             ),
                             Expanded(
@@ -48,6 +50,7 @@ class MyApp extends StatelessWidget {
                                 margin:
                                     const EdgeInsets.fromLTRB(10, 10, 10, 10),
                                 color: const Color.fromARGB(255, 191, 170, 255),
+                                child: Text("Container 3"),
                               ),
                             ),
                             Expanded(
@@ -56,6 +59,7 @@ class MyApp extends StatelessWidget {
                                 margin:
                                     const EdgeInsets.fromLTRB(10, 10, 10, 10),
                                 color: const Color.fromARGB(255, 118, 250, 193),
+                                child: Text("Container 4"),
                               ),
                             ),
                           ],
@@ -68,6 +72,7 @@ class MyApp extends StatelessWidget {
                         alignment: Alignment.center,
                         margin: const EdgeInsets.fromLTRB(10, 10, 10, 10),
                         color: const Color.fromARGB(255, 210, 118, 250),
+                        child: Text("Container 5"),
                       ),
                     ),
 
@@ -83,6 +88,7 @@ class MyApp extends StatelessWidget {
                                 margin:
                                     const EdgeInsets.fromLTRB(10, 10, 10, 10),
                                 color: const Color.fromARGB(255, 118, 246, 250),
+                                child: Text("Container 6"),
                               ),
                             ),
                             Expanded(
@@ -94,6 +100,7 @@ class MyApp extends StatelessWidget {
                                 margin:
                                     const EdgeInsets.fromLTRB(10, 10, 10, 10),
                                 color: const Color.fromARGB(255, 245, 188, 114),
+                                child: Text("Container 7"),
                               ),
                             ),
                           ],
@@ -110,6 +117,7 @@ class MyApp extends StatelessWidget {
                 //width: 50,
                 margin: const EdgeInsets.all(10),
                 color: const Color.fromARGB(255, 255, 109, 109),
+                child: Text("Container 8"),
               ),
             ),
           ],
