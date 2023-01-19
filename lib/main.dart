@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: Text("Welcome"),
+          title: const Text("Welcome"),
         ),
         body: Column(
           children: <Widget>[
@@ -19,8 +19,8 @@ class MyApp extends StatelessWidget {
               flex: 1,
               child: Container(
                 // alignment: Alignment.center,
-                margin: EdgeInsets.fromLTRB(10, 10, 10, 10),
-                color: Color.fromARGB(255, 251, 135, 206),
+                margin: const EdgeInsets.fromLTRB(10, 10, 10, 10),
+                color: const Color.fromARGB(255, 251, 135, 206),
               ),
             ),
 
@@ -37,22 +37,25 @@ class MyApp extends StatelessWidget {
                             Expanded(
                               flex: 4,
                               child: Container(
-                                margin: EdgeInsets.fromLTRB(10, 10, 10, 10),
-                                color: Color.fromARGB(255, 241, 250, 118),
+                                margin:
+                                    const EdgeInsets.fromLTRB(10, 10, 10, 10),
+                                color: const Color.fromARGB(255, 241, 250, 118),
                               ),
                             ),
                             Expanded(
                               flex: 4,
                               child: Container(
-                                margin: EdgeInsets.fromLTRB(10, 10, 10, 10),
-                                color: Color.fromARGB(255, 191, 170, 255),
+                                margin:
+                                    const EdgeInsets.fromLTRB(10, 10, 10, 10),
+                                color: const Color.fromARGB(255, 191, 170, 255),
                               ),
                             ),
                             Expanded(
                               flex: 4,
                               child: Container(
-                                margin: EdgeInsets.fromLTRB(10, 10, 10, 10),
-                                color: Color.fromARGB(255, 118, 250, 193),
+                                margin:
+                                    const EdgeInsets.fromLTRB(10, 10, 10, 10),
+                                color: const Color.fromARGB(255, 118, 250, 193),
                               ),
                             ),
                           ],
@@ -63,8 +66,8 @@ class MyApp extends StatelessWidget {
                       flex: 5,
                       child: Container(
                         alignment: Alignment.center,
-                        margin: EdgeInsets.fromLTRB(10, 10, 10, 10),
-                        color: Color.fromARGB(255, 210, 118, 250),
+                        margin: const EdgeInsets.fromLTRB(10, 10, 10, 10),
+                        color: const Color.fromARGB(255, 210, 118, 250),
                       ),
                     ),
 
@@ -77,8 +80,9 @@ class MyApp extends StatelessWidget {
                               flex: 5,
                               child: Container(
                                 alignment: Alignment.center,
-                                margin: EdgeInsets.fromLTRB(10, 10, 10, 10),
-                                color: Color.fromARGB(255, 118, 246, 250),
+                                margin:
+                                    const EdgeInsets.fromLTRB(10, 10, 10, 10),
+                                color: const Color.fromARGB(255, 118, 246, 250),
                               ),
                             ),
                             Expanded(
@@ -87,8 +91,9 @@ class MyApp extends StatelessWidget {
                                 alignment: Alignment.center,
                                 //height: 50,
                                 // width: 10,
-                                margin: EdgeInsets.fromLTRB(10, 10, 10, 10),
-                                color: Color.fromARGB(255, 245, 188, 114),
+                                margin:
+                                    const EdgeInsets.fromLTRB(10, 10, 10, 10),
+                                color: const Color.fromARGB(255, 245, 188, 114),
                               ),
                             ),
                           ],
@@ -103,8 +108,8 @@ class MyApp extends StatelessWidget {
                 alignment: Alignment.center,
                 //height: 100,
                 //width: 50,
-                margin: EdgeInsets.all(10),
-                color: Color.fromARGB(255, 255, 109, 109),
+                margin: const EdgeInsets.all(10),
+                color: const Color.fromARGB(255, 255, 109, 109),
               ),
             ),
           ],
